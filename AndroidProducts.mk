@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_lmi.mk
+    $(LOCAL_DIR)/revengeos_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_lmi-user \
-    derp_lmi-userdebug \
-    derp_lmi-eng
+    revengeos_lmi-user \
+    revengeos_lmi-userdebug \
+    revengeos_lmi-eng

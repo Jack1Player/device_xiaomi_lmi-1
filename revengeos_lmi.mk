@@ -6,11 +6,14 @@
 
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common aicp stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_lmi
+PRODUCT_NAME := revengeos_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := F2 Pro
