@@ -116,7 +116,9 @@
          hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
-    
+
+    <!-- Show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>    
     
         <!-- Integer parameters of the wifi to cellular handover feature
          wifi should not stick to bad networks -->
