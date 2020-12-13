@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_lmi.mk
+    $(LOCAL_DIR)/fluid_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_lmi-user \
-    revengeos_lmi-userdebug \
-    revengeos_lmi-eng
+    fluid_lmi-user \
+    fluid_lmi-userdebug \
+    fluid_lmi-eng
